@@ -45,6 +45,10 @@ const PreferencesSettingsTheme = React.memo(({ themeCustomColors, onUpdate }) =>
         id: Themes.LINEAR,
         name: t('common.themeLinear'),
       },
+      {
+        id: Themes.VERCEL,
+        name: t('common.themeVercel'),
+      },
     ],
     [t],
   );

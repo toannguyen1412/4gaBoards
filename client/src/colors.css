@@ -1154,6 +1154,204 @@
   --colorPickerInputBoxShadow: rgba(255, 255, 255, 0.1);
 }
 
+/* Vercel Theme — black-and-white precision, Geist font.
+   Pure white canvas with monochrome grays only, single blue used for
+   links/auth (Vercel "#0070F3" classic). Sourced from Vercel marketing
+   site (getdesign.md/vercel: "Black and white precision, Geist font"). */
+[data-theme='vercel'] {
+  --backgroundColor: #ffffff !important;
+  --fakeColor: #000;
+  --backgroundBase0: #ffffff;
+  --backgroundBase1: #fafafa;
+  --backgroundAuth: #ffffff;
+  --backgroundList: #fafafa;
+  --backgroundDate: #fafafa;
+  --backgroundDateSelected: #d9e7fb;
+  --backgroundDateOutside: #ededed;
+  --backgroundCard: #ffffff;
+  --backgroundCardHover: #f5f5f5;
+  --backgroundCardSelected: #d9e7fb;
+  --backgroundCardModal: #ffffff;
+  --backgroundCardModalHeader: #fafafa;
+  --backgroundCheckbox: #ffffff;
+  --backgroundCheckboxHover: #f5f5f5;
+  --backgroundCheckboxDisabled: #ededed;
+  --backgroundTaskHover: #f5f5f5;
+  --backgroundAttachment: #fafafa;
+  --backgroundAttachmentHover: #ededed;
+  --backgroundFilter: #fafafa;
+  --backgroundFilterHover: #ededed;
+  --backgroundFilterSelected: #d9e7fb;
+  --backgroundFilterSelectedHover: #b9d3f7;
+  --backgroundInput: #fafafa;
+  --backgroundInputDisabled: #ededed;
+  --backgroundDropdown: #ffffff;
+  --backgroundDropdownDefault: #fafafa;
+  --backgroundDropdownHover: #f5f5f5;
+  --backgroundDropdownSelected: #d9e7fb;
+  --backgroundButton: #ffffff;
+  --backgroundButtonHover: #f5f5f5;
+  --backgroundButtonDefault: #ffffff;
+  --backgroundButtonMisc: #fafafa;
+  --backgroundButtonAttachment: #171717;
+  --backgroundButtonAttachmentHover: #000000;
+  --backgroundButtonSubmit: #000000;
+  --backgroundButtonSubmitHover: #171717;
+  --backgroundButtonSubmitDisabled: #8f8f8f;
+  --backgroundButtonCancel: #e5484d;
+  --backgroundButtonCancelHover: #c23036;
+  --backgroundButtonCancelDisabled: #f0c5c8;
+  --backgroundButtonAuth: #0070f3;
+  --backgroundButtonAuthHover: #005bcc;
+  --backgroundHeader: #ffffff;
+  --backgroundHeaderHover: #f5f5f5;
+  --backgroundSelection: #0070f3;
+  --backgroundDashboardTile: #fafafa;
+  --backgroundNotifications: #e5484d;
+  --backgroundTimer: #0f8a59;
+  --backgroundTimerHover: #0a7044;
+  --backgroundBadgeRed: #e5484d;
+  --backgroundSidebar: #fafafa;
+  --backgroundTableHeader: #fafafa;
+  --backgroundSidebarItemCategory: #ededed;
+  --backgroundSidebarItem: #ffffff;
+  --backgroundSidebarItemSelected: #d9e7fb;
+  --backgroundTableBody: #ffffff;
+  --backgroundTableRow: #ffffff;
+  --backgroundTableRowOdd: #fafafa;
+  --backgroundNotificationHover: #f5f5f5;
+  --backgroundRadioEnabled: #000000;
+  --backgroundRadioDisabled: #ededed;
+  --backgroundRadioHandle: #ffffff;
+  --backgroundPopup: #ffffff;
+  --backgroundPopupHover: #f5f5f5;
+  --backgroundPopupShadow: rgba(0, 0, 0, 0.06);
+  --backgroundPopupSuccess: #e6f5ec;
+  --backgroundPopupError: #fdeded;
+  --borderPopupSuccess: #0f8a59;
+  --borderPopupError: #e5484d;
+  --borderSubtle: #ededed;
+  --borderVivid: #a3a3a3;
+  --borderSidebar: #ededed;
+  --borderTableResize: #ededed;
+  --borderTableResizeHover: #a3a3a3;
+  --accentSelected: #0070f3;
+  --accentSelectedDark: #005bcc;
+  --activityLinked: #0070f3;
+  --activityLinkedHover: #005bcc;
+  --activityDeleted: #e5484d;
+  --iconGithubActive: #0f8a59;
+  --iconGithubInactive: var(--text4);
+  --textDateSelected: #000000;
+  --textDateOutside: #a3a3a3;
+  --textDateMain: var(--text1);
+  --textDateToday: var(--textGold);
+  --textAttachmentDate: #737373;
+  --textAttachmentExtension: #525252;
+  --textLocalChanges: #b08000;
+  --textSelection: var(--textWhite);
+  --textWhite: #ffffff;
+  --text0Strong: #000000;
+  --text0: #171717;
+  --text1: #404040;
+  --text2: #525252;
+  --text3: #737373;
+  --text4: #a3a3a3;
+  --text5: #d4d4d4;
+  --textGold: #b08000;
+  --textGoldHover: #8a6500;
+  --textBlue: #0070f3;
+  --textBlueHover: #005bcc;
+  --textLink: var(--textBlue);
+  --textLinkHover: var(--textBlueHover);
+  --textRed: #e5484d;
+  --textRedHover: #c23036;
+  --textWarning: var(--textGold);
+  --textWarningHover: var(--textGoldHover);
+  --textSuccess: #0f8a59;
+  --textSuccessHover: #0a7044;
+  --textError: var(--textRed);
+  --textErrorHover: var(--textRedHover);
+  --textCounter: #a3a3a3;
+  --textCounterHover: #737373;
+  --shadowBlack01: rgba(0, 0, 0, 0.04);
+  --shadowBlack015: rgba(0, 0, 0, 0.06);
+  --shadowBlack02: rgba(0, 0, 0, 0.08);
+  --shadowBlack03: rgba(0, 0, 0, 0.12);
+  --shadowBlack05: rgba(0, 0, 0, 0.2);
+  --shadowBlack06: rgba(0, 0, 0, 0.3);
+  --shadowBlack08: rgba(0, 0, 0, 0.4);
+  --shadowGray07: rgba(0, 0, 0, 0.1);
+  --shadowModal: rgba(0, 0, 0, 0.35);
+  --scrollbarThumb: #d4d4d4;
+  --scrollbarThumbHover: #a3a3a3;
+  --scrollbarThumbActive: #737373;
+  --scrollbarTrack: #fafafa;
+
+  /* Activities — monochrome with single colors per type */
+  --instanceActivity: #171717;
+  --userActivity: #525252;
+  --projectActivity: #b08000;
+  --boardActivity: #737373;
+  --listActivity: #0f8a59;
+  --cardActivity: #0070f3;
+  --taskActivity: #404040;
+  --attachmentActivity: #737373;
+  --commentActivity: #525252;
+
+  /* Progress Bar */
+  --backgroundProgressBarRed: #e5484d;
+  --backgroundProgressBarOrange: #f7931e;
+  --backgroundProgressBarYellow: #f5d908;
+  --backgroundProgressBarOlive: #94a30d;
+  --backgroundProgressBarGreen: #0f8a59;
+
+  /* User Avatar */
+  --backgroundAvatarEmerald: #0f8a59;
+  --backgroundAvatarPeterRiver: #0070f3;
+  --backgroundAvatarWisteria: #7c3aed;
+  --backgroundAvatarCarrot: #f7931e;
+  --backgroundAvatarAlizarin: #e5484d;
+  --backgroundAvatarTurquoise: #06b6d4;
+  --backgroundAvatarMidnightBlue: #171717;
+
+  /* Due Date */
+  --dueDateNormal: #737373;
+  --dueDateClose: #f7931e;
+  --dueDateOver: #e5484d;
+
+  /* Markdown Editor */
+  --mdBlack: #000000;
+  --mdGrey: #525252;
+  --mdWhite: #ffffff;
+  --mdBrown: #92450b;
+  --mdRed: #e5484d;
+  --mdPurple: #7c3aed;
+  --mdPink: #db2777;
+  --mdGreen: #0f8a59;
+  --mdLime: #94a30d;
+  --mdYellow: #b08000;
+  --mdBlue: #0070f3;
+  --mdCyan: #06b6d4;
+  --mdOrange: #f7931e;
+
+  --backgroundMdEditor: #fafafa;
+  --backgroundMdEditorToolbar: #ffffff;
+  --mdEditorIcon: var(--text3);
+  --mdEditorIconHover: #0070f3;
+  --mdEditorIconDisabled: #d4d4d4;
+  --mdEditorPreviewBoxSeparator: #ededed;
+
+  /* Color Picker */
+  --colorPickerInputBoxShadow: #d4d4d4;
+}
+
+/* Vercel theme typography — Geist sans for everything, Geist Mono for code */
+[data-theme='vercel'] {
+  font-family: 'Geist', 'Geist Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.005em;
+}
+
 /* TODO: Remove - old colors:
   --backgroundColor1: #252526;
   --backgroundColor2: #333333;
