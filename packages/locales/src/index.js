@@ -28,10 +28,12 @@ import sv from './sv';
 import svActivity from './sv/activity';
 import uz from './uz';
 import uzActivity from './uz/activity';
+import vi from './vi';
+import viActivity from './vi/activity';
 import zh from './zh';
 import zhActivity from './zh/activity';
 
-const locales = [cs, da, de, en, es, fr, it, ja, ko, pl, ptBr, ru, sk, sv, uz, zh];
+const locales = [cs, da, de, en, es, fr, it, ja, ko, pl, ptBr, ru, sk, sv, uz, vi, zh];
 
 export default locales;
 
@@ -61,6 +63,7 @@ export const activityLocales = {
   sk: skActivity,
   sv: svActivity,
   uz: uzActivity,
+  vi: viActivity,
   zh: zhActivity,
 };
 
