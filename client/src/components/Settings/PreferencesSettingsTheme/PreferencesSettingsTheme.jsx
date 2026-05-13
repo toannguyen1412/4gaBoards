@@ -41,6 +41,10 @@ const PreferencesSettingsTheme = React.memo(({ themeCustomColors, onUpdate }) =>
         id: Themes.NOTION,
         name: t('common.themeNotion'),
       },
+      {
+        id: Themes.LINEAR,
+        name: t('common.themeLinear'),
+      },
     ],
     [t],
   );

@@ -141,6 +141,10 @@ const PreferencesSettings = React.memo(
           name: t('common.themeNotion'),
         },
         {
+          id: Themes.LINEAR,
+          name: t('common.themeLinear'),
+        },
+        {
           id: Themes.CUSTOM,
           name: t('common.themeCustom'),
           badge: t('common.beta'),

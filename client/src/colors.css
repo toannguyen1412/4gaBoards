@@ -962,6 +962,198 @@
   letter-spacing: -0.01em;
 }
 
+/* Linear Theme — ultra-minimal dark, precise, signature purple (#5e6ad2).
+   Cool near-black canvas, very tight contrast, single accent used only
+   where the cursor lands. Source: getdesign.md/linear "Ultra-minimal,
+   precise, purple accent". */
+[data-theme='linear'] {
+  --backgroundColor: #08090a !important; /* Override loading.css */
+  --fakeColor: #000;
+  --backgroundBase0: #08090a;
+  --backgroundBase1: #101113;
+  --backgroundAuth: #08090a;
+  --backgroundList: #101113;
+  --backgroundDate: #101113;
+  --backgroundDateSelected: #2c2e72;
+  --backgroundDateOutside: #1c1d1f;
+  --backgroundCard: #16181c;
+  --backgroundCardHover: #1c1e22;
+  --backgroundCardSelected: #2c2e72;
+  --backgroundCardModal: #16181c;
+  --backgroundCardModalHeader: #101113;
+  --backgroundCheckbox: #16181c;
+  --backgroundCheckboxHover: #1c1e22;
+  --backgroundCheckboxDisabled: #1c1d1f;
+  --backgroundTaskHover: #131418;
+  --backgroundAttachment: #131418;
+  --backgroundAttachmentHover: #1c1e22;
+  --backgroundFilter: #16181c;
+  --backgroundFilterHover: #1c1e22;
+  --backgroundFilterSelected: #2c2e72;
+  --backgroundFilterSelectedHover: #3e41a3;
+  --backgroundInput: #131418;
+  --backgroundInputDisabled: #1c1d1f;
+  --backgroundDropdown: #16181c;
+  --backgroundDropdownDefault: #131418;
+  --backgroundDropdownHover: #1c1e22;
+  --backgroundDropdownSelected: #2c2e72;
+  --backgroundButton: #1c1e22;
+  --backgroundButtonHover: #25272d;
+  --backgroundButtonDefault: #1c1e22;
+  --backgroundButtonMisc: #25272d;
+  --backgroundButtonAttachment: #8a8f98;
+  --backgroundButtonAttachmentHover: #b4b8c0;
+  --backgroundButtonSubmit: #5e6ad2;
+  --backgroundButtonSubmitHover: #7077e0;
+  --backgroundButtonSubmitDisabled: #2c2e72;
+  --backgroundButtonCancel: #eb5757;
+  --backgroundButtonCancelHover: #c84141;
+  --backgroundButtonCancelDisabled: #5f2929;
+  --backgroundButtonAuth: #5e6ad2;
+  --backgroundButtonAuthHover: #7077e0;
+  --backgroundHeader: #08090a;
+  --backgroundHeaderHover: #16181c;
+  --backgroundSelection: #5e6ad2;
+  --backgroundDashboardTile: #16181c;
+  --backgroundNotifications: #eb5757;
+  --backgroundTimer: #4cb782;
+  --backgroundTimerHover: #3f9b6f;
+  --backgroundBadgeRed: #eb5757;
+  --backgroundSidebar: #101113;
+  --backgroundTableHeader: #101113;
+  --backgroundSidebarItemCategory: #1c1d1f;
+  --backgroundSidebarItem: #16181c;
+  --backgroundSidebarItemSelected: #2c2e72;
+  --backgroundTableBody: #08090a;
+  --backgroundTableRow: #101113;
+  --backgroundTableRowOdd: #131418;
+  --backgroundNotificationHover: #1c1e22;
+  --backgroundRadioEnabled: #5e6ad2;
+  --backgroundRadioDisabled: #25272d;
+  --backgroundRadioHandle: #d0d6e0;
+  --backgroundPopup: #16181c;
+  --backgroundPopupHover: #1c1e22;
+  --backgroundPopupShadow: rgba(0, 0, 0, 0.5);
+  --backgroundPopupSuccess: #14361f;
+  --backgroundPopupError: #4a1c1c;
+  --borderPopupSuccess: #4cb782;
+  --borderPopupError: #eb5757;
+  --borderSubtle: rgba(255, 255, 255, 0.07);
+  --borderVivid: rgba(255, 255, 255, 0.15);
+  --borderSidebar: rgba(255, 255, 255, 0.07);
+  --borderTableResize: rgba(255, 255, 255, 0.07);
+  --borderTableResizeHover: rgba(255, 255, 255, 0.2);
+  --accentSelected: #5e6ad2;
+  --accentSelectedDark: #7077e0;
+  --activityLinked: #5e6ad2;
+  --activityLinkedHover: #7077e0;
+  --activityDeleted: #eb5757;
+  --iconGithubActive: #4cb782;
+  --iconGithubInactive: var(--text4);
+  --textDateSelected: #f4f5f8;
+  --textDateOutside: #5a5d63;
+  --textDateMain: var(--text1);
+  --textDateToday: var(--textGold);
+  --textAttachmentDate: #8a8f98;
+  --textAttachmentExtension: #b4b8c0;
+  --textLocalChanges: #f2c94c;
+  --textSelection: var(--textWhite);
+  --textWhite: #ffffff;
+  --text0Strong: #ffffff;
+  --text0: #f4f5f8;
+  --text1: #d0d6e0;
+  --text2: #b4b8c0;
+  --text3: #8a8f98;
+  --text4: #62666d;
+  --text5: #4a4d52;
+  --textGold: #f2c94c;
+  --textGoldHover: #cfa830;
+  --textBlue: #7077e0;
+  --textBlueHover: #9aa0eb;
+  --textLink: var(--textBlue);
+  --textLinkHover: var(--textBlueHover);
+  --textRed: #eb5757;
+  --textRedHover: #f47171;
+  --textWarning: var(--textGold);
+  --textWarningHover: var(--textGoldHover);
+  --textSuccess: #4cb782;
+  --textSuccessHover: #66c89a;
+  --textError: var(--textRed);
+  --textErrorHover: var(--textRedHover);
+  --textCounter: #62666d;
+  --textCounterHover: #8a8f98;
+  --shadowBlack01: rgba(0, 0, 0, 0.2);
+  --shadowBlack015: rgba(0, 0, 0, 0.3);
+  --shadowBlack02: rgba(0, 0, 0, 0.4);
+  --shadowBlack03: rgba(0, 0, 0, 0.5);
+  --shadowBlack05: rgba(0, 0, 0, 0.6);
+  --shadowBlack06: rgba(0, 0, 0, 0.7);
+  --shadowBlack08: rgba(0, 0, 0, 0.85);
+  --shadowGray07: rgba(0, 0, 0, 0.4);
+  --shadowModal: var(--shadowBlack08);
+  --scrollbarThumb: #2f3239;
+  --scrollbarThumbHover: #3e424a;
+  --scrollbarThumbActive: #5a5d63;
+  --scrollbarTrack: #101113;
+
+  /* Activities */
+  --instanceActivity: #eb5757;
+  --userActivity: #f47171;
+  --projectActivity: #f2c94c;
+  --boardActivity: #d6b13a;
+  --listActivity: #4cb782;
+  --cardActivity: #5b9bd5;
+  --taskActivity: #7077e0;
+  --attachmentActivity: #9aa0eb;
+  --commentActivity: #c084fc;
+
+  /* Progress Bar */
+  --backgroundProgressBarRed: #eb5757;
+  --backgroundProgressBarOrange: #f2994a;
+  --backgroundProgressBarYellow: #f2c94c;
+  --backgroundProgressBarOlive: #a2c46b;
+  --backgroundProgressBarGreen: #4cb782;
+
+  /* User Avatar */
+  --backgroundAvatarEmerald: #4cb782;
+  --backgroundAvatarPeterRiver: #5b9bd5;
+  --backgroundAvatarWisteria: #c084fc;
+  --backgroundAvatarCarrot: #f2994a;
+  --backgroundAvatarAlizarin: #eb5757;
+  --backgroundAvatarTurquoise: #46c5b3;
+  --backgroundAvatarMidnightBlue: #5e6ad2;
+
+  /* Due Date */
+  --dueDateNormal: #8a8f98;
+  --dueDateClose: #f2994a;
+  --dueDateOver: #eb5757;
+
+  /* Markdown Editor */
+  --mdBlack: #f4f5f8;
+  --mdGrey: #b4b8c0;
+  --mdWhite: #ffffff;
+  --mdBrown: #c69a76;
+  --mdRed: #eb5757;
+  --mdPurple: #c084fc;
+  --mdPink: #f78fbf;
+  --mdGreen: #4cb782;
+  --mdLime: #a2c46b;
+  --mdYellow: #f2c94c;
+  --mdBlue: #7077e0;
+  --mdCyan: #46c5b3;
+  --mdOrange: #f2994a;
+
+  --backgroundMdEditor: #131418;
+  --backgroundMdEditorToolbar: #16181c;
+  --mdEditorIcon: var(--text3);
+  --mdEditorIconHover: #7077e0;
+  --mdEditorIconDisabled: #4a4d52;
+  --mdEditorPreviewBoxSeparator: rgba(255, 255, 255, 0.07);
+
+  /* Color Picker */
+  --colorPickerInputBoxShadow: rgba(255, 255, 255, 0.1);
+}
+
 /* TODO: Remove - old colors:
   --backgroundColor1: #252526;
   --backgroundColor2: #333333;

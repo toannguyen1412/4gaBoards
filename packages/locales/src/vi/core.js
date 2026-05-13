@@ -488,6 +488,7 @@ export default {
       themeLight: 'Sáng',
       themeLightSoft: 'Sáng dịu',
       themeNotion: 'Notion',
+      themeLinear: 'Linear',
       themeShape: 'Hình dạng giao diện',
       themeShapeDefault: 'Mặc định',
       themeShapeRounded: 'Bo tròn',

@@ -488,6 +488,7 @@ export default {
       themeLight: 'Light',
       themeLightSoft: 'Light Soft',
       themeNotion: 'Notion',
+      themeLinear: 'Linear',
       themeShape: 'Theme Shape',
       themeShapeDefault: 'Default',
       themeShapeRounded: 'Rounded',
