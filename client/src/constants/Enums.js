@@ -36,6 +36,10 @@ export const Themes = {
   LIGHT: 'light',
   LIGHT_SOFT: 'light-soft',
   NOTION: 'notion',
+  LINEAR: 'linear',
+  VERCEL: 'vercel',
+  CLAUDE: 'claude',
+  STRIPE: 'stripe',
   CUSTOM: 'custom',
 };
 
