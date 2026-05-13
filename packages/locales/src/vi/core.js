@@ -491,6 +491,7 @@ export default {
       themeLinear: 'Linear',
       themeVercel: 'Vercel',
       themeClaude: 'Claude',
+      themeStripe: 'Stripe',
       themeShape: 'Hình dạng giao diện',
       themeShapeDefault: 'Mặc định',
       themeShapeRounded: 'Bo tròn',

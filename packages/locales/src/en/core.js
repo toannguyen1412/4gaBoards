@@ -491,6 +491,7 @@ export default {
       themeLinear: 'Linear',
       themeVercel: 'Vercel',
       themeClaude: 'Claude',
+      themeStripe: 'Stripe',
       themeShape: 'Theme Shape',
       themeShapeDefault: 'Default',
       themeShapeRounded: 'Rounded',

@@ -53,6 +53,10 @@ const PreferencesSettingsTheme = React.memo(({ themeCustomColors, onUpdate }) =>
         id: Themes.CLAUDE,
         name: t('common.themeClaude'),
       },
+      {
+        id: Themes.STRIPE,
+        name: t('common.themeStripe'),
+      },
     ],
     [t],
   );
