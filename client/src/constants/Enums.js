@@ -35,6 +35,7 @@ export const Themes = {
   GITHUB_DARK: 'github-dark',
   LIGHT: 'light',
   LIGHT_SOFT: 'light-soft',
+  NOTION: 'notion',
   CUSTOM: 'custom',
 };
 
