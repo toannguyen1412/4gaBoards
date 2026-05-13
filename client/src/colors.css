@@ -756,6 +756,212 @@
   --colorPickerInputBoxShadow: #b6a784;
 }
 
+/* Notion Theme — warm minimalism, serif headings, soft surfaces.
+   Palette derived from Notion's public web app: warm near-black text
+   (#37352F), translucent dark overlays for hover/border, cream-white
+   sidebar (#F7F6F3), Notion blue accent (#2383E2). */
+[data-theme='notion'] {
+  --backgroundColor: #ffffff !important; /* Override loading.css */
+  --fakeColor: #000; /* FIXME: 1st color after !important does not show in custom theme editor */
+  --backgroundBase0: #ffffff;
+  --backgroundBase1: #f7f6f3;
+  --backgroundAuth: #ffffff;
+  --backgroundList: #f7f6f3;
+  --backgroundDate: #f7f6f3;
+  --backgroundDateSelected: #ddebf1;
+  --backgroundDateOutside: #ecebe8;
+  --backgroundCard: #ffffff;
+  --backgroundCardHover: #f1f1ef;
+  --backgroundCardSelected: #ddebf1;
+  --backgroundCardModal: #ffffff;
+  --backgroundCardModalHeader: #f7f6f3;
+  --backgroundCheckbox: #ffffff;
+  --backgroundCheckboxHover: #f1f1ef;
+  --backgroundCheckboxDisabled: #ecebe8;
+  --backgroundTaskHover: #f7f6f3;
+  --backgroundAttachment: #f7f6f3;
+  --backgroundAttachmentHover: #efeeec;
+  --backgroundFilter: #f1f1ef;
+  --backgroundFilterHover: #ecebe8;
+  --backgroundFilterSelected: #ddebf1;
+  --backgroundFilterSelectedHover: #c9def0;
+  --backgroundInput: #f7f6f3;
+  --backgroundInputDisabled: #ecebe8;
+  --backgroundDropdown: #ffffff;
+  --backgroundDropdownDefault: #f7f6f3;
+  --backgroundDropdownHover: #f1f1ef;
+  --backgroundDropdownSelected: #ddebf1;
+  --backgroundButton: #f1f1ef;
+  --backgroundButtonHover: #ecebe8;
+  --backgroundButtonDefault: #f1f1ef;
+  --backgroundButtonMisc: #ecebe8;
+  --backgroundButtonAttachment: #37352f;
+  --backgroundButtonAttachmentHover: #25241f;
+  --backgroundButtonSubmit: #0f7b6c;
+  --backgroundButtonSubmitHover: #0b6358;
+  --backgroundButtonSubmitDisabled: #8fbcb4;
+  --backgroundButtonCancel: #e03e3e;
+  --backgroundButtonCancelHover: #b62828;
+  --backgroundButtonCancelDisabled: #efb4b4;
+  --backgroundButtonAuth: #2383e2;
+  --backgroundButtonAuthHover: #0b6bc8;
+  --backgroundHeader: #ffffff;
+  --backgroundHeaderHover: #f1f1ef;
+  --backgroundSelection: #2383e2;
+  --backgroundDashboardTile: #f7f6f3;
+  --backgroundNotifications: #e03e3e;
+  --backgroundTimer: #0f7b6c;
+  --backgroundTimerHover: #0b6358;
+  --backgroundBadgeRed: #e03e3e;
+  --backgroundSidebar: #f7f6f3;
+  --backgroundTableHeader: #f7f6f3;
+  --backgroundSidebarItemCategory: #ecebe8;
+  --backgroundSidebarItem: #ffffff;
+  --backgroundSidebarItemSelected: #ddebf1;
+  --backgroundTableBody: #ffffff;
+  --backgroundTableRow: #ffffff;
+  --backgroundTableRowOdd: #f7f6f3;
+  --backgroundNotificationHover: #f1f1ef;
+  --backgroundRadioEnabled: #2383e2;
+  --backgroundRadioDisabled: #ecebe8;
+  --backgroundRadioHandle: #ffffff;
+  --backgroundPopup: #ffffff;
+  --backgroundPopupHover: #f1f1ef;
+  --backgroundPopupShadow: rgba(15, 15, 15, 0.05);
+  --backgroundPopupSuccess: #e6f5ec;
+  --backgroundPopupError: #fdeded;
+  --borderPopupSuccess: #0f7b6c;
+  --borderPopupError: #e03e3e;
+  --borderSubtle: rgba(55, 53, 47, 0.09);
+  --borderVivid: rgba(55, 53, 47, 0.24);
+  --borderSidebar: rgba(55, 53, 47, 0.09);
+  --borderTableResize: rgba(55, 53, 47, 0.09);
+  --borderTableResizeHover: rgba(55, 53, 47, 0.24);
+  --accentSelected: #2383e2;
+  --accentSelectedDark: #0b6bc8;
+  --activityLinked: #2383e2;
+  --activityLinkedHover: #0b6bc8;
+  --activityDeleted: #e03e3e;
+  --iconGithubActive: #0f7b6c;
+  --iconGithubInactive: var(--text4);
+  --textDateSelected: #1f1f1f;
+  --textDateOutside: #9b9a97;
+  --textDateMain: var(--text1);
+  --textDateToday: var(--textGold);
+  --textAttachmentDate: #787774;
+  --textAttachmentExtension: #5a594f;
+  --textLocalChanges: #cb912f;
+  --textSelection: var(--textWhite);
+  --textWhite: #ffffff;
+  --text0Strong: #191918;
+  --text0: #37352f;
+  --text1: #4a4843;
+  --text2: #5a594f;
+  --text3: #787774;
+  --text4: #9b9a97;
+  --text5: #bfbfba;
+  --textGold: #cb912f;
+  --textGoldHover: #a76f1c;
+  --textBlue: #2383e2;
+  --textBlueHover: #0b6bc8;
+  --textLink: var(--textBlue);
+  --textLinkHover: var(--textBlueHover);
+  --textRed: #e03e3e;
+  --textRedHover: #b62828;
+  --textWarning: var(--textGold);
+  --textWarningHover: var(--textGoldHover);
+  --textSuccess: #0f7b6c;
+  --textSuccessHover: #0b6358;
+  --textError: var(--textRed);
+  --textErrorHover: var(--textRedHover);
+  --textCounter: #9b9a97;
+  --textCounterHover: #787774;
+  --shadowBlack01: rgba(15, 15, 15, 0.05);
+  --shadowBlack015: rgba(15, 15, 15, 0.08);
+  --shadowBlack02: rgba(15, 15, 15, 0.1);
+  --shadowBlack03: rgba(15, 15, 15, 0.15);
+  --shadowBlack05: rgba(15, 15, 15, 0.25);
+  --shadowBlack06: rgba(15, 15, 15, 0.35);
+  --shadowBlack08: rgba(15, 15, 15, 0.5);
+  --shadowGray07: rgba(15, 15, 15, 0.15);
+  --shadowModal: rgba(15, 15, 15, 0.4);
+  --scrollbarThumb: #d3d2cf;
+  --scrollbarThumbHover: #b8b7b3;
+  --scrollbarThumbActive: #9b9a97;
+  --scrollbarTrack: #f1f1ef;
+
+  /* Activities — muted Notion-style palette */
+  --instanceActivity: #b53737;
+  --userActivity: #c47a7a;
+  --projectActivity: #cb912f;
+  --boardActivity: #a17017;
+  --listActivity: #4a8a4a;
+  --cardActivity: #1a8a7c;
+  --taskActivity: #2383e2;
+  --attachmentActivity: #5b5fc7;
+  --commentActivity: #9362a8;
+
+  /* Progress Bar */
+  --backgroundProgressBarRed: #e03e3e;
+  --backgroundProgressBarOrange: #d9730d;
+  --backgroundProgressBarYellow: #cb912f;
+  --backgroundProgressBarOlive: #8aa15a;
+  --backgroundProgressBarGreen: #0f7b6c;
+
+  /* User Avatar — Notion's preset avatar colors */
+  --backgroundAvatarEmerald: #0f7b6c;
+  --backgroundAvatarPeterRiver: #2383e2;
+  --backgroundAvatarWisteria: #9362a8;
+  --backgroundAvatarCarrot: #d9730d;
+  --backgroundAvatarAlizarin: #e03e3e;
+  --backgroundAvatarTurquoise: #1a8a7c;
+  --backgroundAvatarMidnightBlue: #2383e2;
+
+  /* Due Date */
+  --dueDateNormal: #787774;
+  --dueDateClose: #d9730d;
+  --dueDateOver: #e03e3e;
+
+  /* Markdown Editor */
+  --mdBlack: #37352f;
+  --mdGrey: #787774;
+  --mdWhite: #ffffff;
+  --mdBrown: #a76f1c;
+  --mdRed: #e03e3e;
+  --mdPurple: #9362a8;
+  --mdPink: #c14c8a;
+  --mdGreen: #0f7b6c;
+  --mdLime: #8aa15a;
+  --mdYellow: #cb912f;
+  --mdBlue: #2383e2;
+  --mdCyan: #1a8a7c;
+  --mdOrange: #d9730d;
+
+  --backgroundMdEditor: #f7f6f3;
+  --backgroundMdEditorToolbar: #ffffff;
+  --mdEditorIcon: var(--text3);
+  --mdEditorIconHover: #2383e2;
+  --mdEditorIconDisabled: #bfbfba;
+  --mdEditorPreviewBoxSeparator: rgba(55, 53, 47, 0.09);
+
+  /* Color Picker */
+  --colorPickerInputBoxShadow: rgba(55, 53, 47, 0.16);
+}
+
+/* Notion theme typography — serif headings, system sans for body */
+[data-theme='notion'] {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, 'Inter', Arial, sans-serif;
+}
+
+[data-theme='notion'] h1,
+[data-theme='notion'] h2,
+[data-theme='notion'] h3,
+[data-theme='notion'] h4 {
+  font-family: 'Lyon-Text', Georgia, 'Times New Roman', Cambria, 'Liberation Serif', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
 /* TODO: Remove - old colors:
   --backgroundColor1: #252526;
   --backgroundColor2: #333333;
