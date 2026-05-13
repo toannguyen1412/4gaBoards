@@ -486,6 +486,7 @@ export default {
       themeEditor: 'Theme Editor',
       themeGithubDark: 'GitHub Dark',
       themeLight: 'Light',
+      themeLightSoft: 'Light Soft',
       themeShape: 'Theme Shape',
       themeShapeDefault: 'Default',
       themeShapeRounded: 'Rounded',
