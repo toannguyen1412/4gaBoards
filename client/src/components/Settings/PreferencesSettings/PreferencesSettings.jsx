@@ -149,6 +149,10 @@ const PreferencesSettings = React.memo(
           name: t('common.themeVercel'),
         },
         {
+          id: Themes.CLAUDE,
+          name: t('common.themeClaude'),
+        },
+        {
           id: Themes.CUSTOM,
           name: t('common.themeCustom'),
           badge: t('common.beta'),

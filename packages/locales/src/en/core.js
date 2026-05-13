@@ -490,6 +490,7 @@ export default {
       themeNotion: 'Notion',
       themeLinear: 'Linear',
       themeVercel: 'Vercel',
+      themeClaude: 'Claude',
       themeShape: 'Theme Shape',
       themeShapeDefault: 'Default',
       themeShapeRounded: 'Rounded',

@@ -490,6 +490,7 @@ export default {
       themeNotion: 'Notion',
       themeLinear: 'Linear',
       themeVercel: 'Vercel',
+      themeClaude: 'Claude',
       themeShape: 'Hình dạng giao diện',
       themeShapeDefault: 'Mặc định',
       themeShapeRounded: 'Bo tròn',

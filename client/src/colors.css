@@ -1352,6 +1352,210 @@
   letter-spacing: -0.005em;
 }
 
+/* Claude Theme — Anthropic's warm editorial palette.
+   Cream/paper canvas (#FAF9F5) with warm dark text (#3D3929) and
+   the signature terracotta accent (#D97757 / #CC785C). Editorial
+   layout — slightly more generous spacing on borders/shadows.
+   Sourced from Anthropic's claude.ai aesthetic
+   (getdesign.md/claude: "Warm terracotta accent, clean editorial layout"). */
+[data-theme='claude'] {
+  --backgroundColor: #faf9f5 !important;
+  --fakeColor: #000;
+  --backgroundBase0: #faf9f5;
+  --backgroundBase1: #f0eee6;
+  --backgroundAuth: #faf9f5;
+  --backgroundList: #f0eee6;
+  --backgroundDate: #f0eee6;
+  --backgroundDateSelected: #f5dccb;
+  --backgroundDateOutside: #e3e0d5;
+  --backgroundCard: #ffffff;
+  --backgroundCardHover: #f5f3eb;
+  --backgroundCardSelected: #f5dccb;
+  --backgroundCardModal: #ffffff;
+  --backgroundCardModalHeader: #f5f3eb;
+  --backgroundCheckbox: #ffffff;
+  --backgroundCheckboxHover: #f5dccb;
+  --backgroundCheckboxDisabled: #e3e0d5;
+  --backgroundTaskHover: #f5f3eb;
+  --backgroundAttachment: #f5f3eb;
+  --backgroundAttachmentHover: #ece8db;
+  --backgroundFilter: #f0eee6;
+  --backgroundFilterHover: #ece8db;
+  --backgroundFilterSelected: #f5dccb;
+  --backgroundFilterSelectedHover: #efc6ad;
+  --backgroundInput: #ffffff;
+  --backgroundInputDisabled: #ece8db;
+  --backgroundDropdown: #ffffff;
+  --backgroundDropdownDefault: #f5f3eb;
+  --backgroundDropdownHover: #ece8db;
+  --backgroundDropdownSelected: #f5dccb;
+  --backgroundButton: #ffffff;
+  --backgroundButtonHover: #f5f3eb;
+  --backgroundButtonDefault: #ffffff;
+  --backgroundButtonMisc: #f0eee6;
+  --backgroundButtonAttachment: #3d3929;
+  --backgroundButtonAttachmentHover: #28251a;
+  --backgroundButtonSubmit: #d97757;
+  --backgroundButtonSubmitHover: #c2603e;
+  --backgroundButtonSubmitDisabled: #ecc1ad;
+  --backgroundButtonCancel: #c0392b;
+  --backgroundButtonCancelHover: #962c20;
+  --backgroundButtonCancelDisabled: #e2b1a9;
+  --backgroundButtonAuth: #d97757;
+  --backgroundButtonAuthHover: #c2603e;
+  --backgroundHeader: #faf9f5;
+  --backgroundHeaderHover: #f0eee6;
+  --backgroundSelection: #d97757;
+  --backgroundDashboardTile: #f0eee6;
+  --backgroundNotifications: #c0392b;
+  --backgroundTimer: #6b8e4e;
+  --backgroundTimerHover: #557240;
+  --backgroundBadgeRed: #c0392b;
+  --backgroundSidebar: #f0eee6;
+  --backgroundTableHeader: #f0eee6;
+  --backgroundSidebarItemCategory: #e3e0d5;
+  --backgroundSidebarItem: #ffffff;
+  --backgroundSidebarItemSelected: #f5dccb;
+  --backgroundTableBody: #faf9f5;
+  --backgroundTableRow: #ffffff;
+  --backgroundTableRowOdd: #f5f3eb;
+  --backgroundNotificationHover: #f5f3eb;
+  --backgroundRadioEnabled: #d97757;
+  --backgroundRadioDisabled: #e3e0d5;
+  --backgroundRadioHandle: #ffffff;
+  --backgroundPopup: #ffffff;
+  --backgroundPopupHover: #f5f3eb;
+  --backgroundPopupShadow: rgba(61, 57, 41, 0.08);
+  --backgroundPopupSuccess: #e8efde;
+  --backgroundPopupError: #f7d7d2;
+  --borderPopupSuccess: #6b8e4e;
+  --borderPopupError: #c0392b;
+  --borderSubtle: rgba(61, 57, 41, 0.1);
+  --borderVivid: rgba(61, 57, 41, 0.25);
+  --borderSidebar: rgba(61, 57, 41, 0.1);
+  --borderTableResize: rgba(61, 57, 41, 0.1);
+  --borderTableResizeHover: rgba(61, 57, 41, 0.3);
+  --accentSelected: #d97757;
+  --accentSelectedDark: #c2603e;
+  --activityLinked: #cc785c;
+  --activityLinkedHover: #b25e44;
+  --activityDeleted: #c0392b;
+  --iconGithubActive: #6b8e4e;
+  --iconGithubInactive: var(--text4);
+  --textDateSelected: #28251a;
+  --textDateOutside: #94907a;
+  --textDateMain: var(--text1);
+  --textDateToday: var(--textGold);
+  --textAttachmentDate: #6f6a55;
+  --textAttachmentExtension: #534f3f;
+  --textLocalChanges: #b8861b;
+  --textSelection: var(--textWhite);
+  --textWhite: #ffffff;
+  --text0Strong: #1a1812;
+  --text0: #3d3929;
+  --text1: #534f3f;
+  --text2: #6f6a55;
+  --text3: #8a8570;
+  --text4: #a8a38c;
+  --text5: #c4bfa8;
+  --textGold: #b8861b;
+  --textGoldHover: #946a13;
+  --textBlue: #4a7298;
+  --textBlueHover: #355479;
+  --textLink: #cc785c;
+  --textLinkHover: #b25e44;
+  --textRed: #c0392b;
+  --textRedHover: #962c20;
+  --textWarning: var(--textGold);
+  --textWarningHover: var(--textGoldHover);
+  --textSuccess: #6b8e4e;
+  --textSuccessHover: #557240;
+  --textError: var(--textRed);
+  --textErrorHover: var(--textRedHover);
+  --textCounter: #a8a38c;
+  --textCounterHover: #8a8570;
+  --shadowBlack01: rgba(61, 57, 41, 0.06);
+  --shadowBlack015: rgba(61, 57, 41, 0.08);
+  --shadowBlack02: rgba(61, 57, 41, 0.12);
+  --shadowBlack03: rgba(61, 57, 41, 0.18);
+  --shadowBlack05: rgba(61, 57, 41, 0.3);
+  --shadowBlack06: rgba(61, 57, 41, 0.4);
+  --shadowBlack08: rgba(61, 57, 41, 0.55);
+  --shadowGray07: rgba(61, 57, 41, 0.15);
+  --shadowModal: rgba(61, 57, 41, 0.45);
+  --scrollbarThumb: #c4bfa8;
+  --scrollbarThumbHover: #a8a38c;
+  --scrollbarThumbActive: #8a8570;
+  --scrollbarTrack: #f0eee6;
+
+  /* Activities */
+  --instanceActivity: #962c20;
+  --userActivity: #c0392b;
+  --projectActivity: #b8861b;
+  --boardActivity: #946a13;
+  --listActivity: #6b8e4e;
+  --cardActivity: #4a7298;
+  --taskActivity: #5e7f3f;
+  --attachmentActivity: #7a5d9c;
+  --commentActivity: #a85694;
+
+  /* Progress Bar */
+  --backgroundProgressBarRed: #c0392b;
+  --backgroundProgressBarOrange: #d97757;
+  --backgroundProgressBarYellow: #b8861b;
+  --backgroundProgressBarOlive: #94a47a;
+  --backgroundProgressBarGreen: #6b8e4e;
+
+  /* User Avatar */
+  --backgroundAvatarEmerald: #6b8e4e;
+  --backgroundAvatarPeterRiver: #4a7298;
+  --backgroundAvatarWisteria: #7a5d9c;
+  --backgroundAvatarCarrot: #d97757;
+  --backgroundAvatarAlizarin: #c0392b;
+  --backgroundAvatarTurquoise: #4d9c8f;
+  --backgroundAvatarMidnightBlue: #355479;
+
+  /* Due Date */
+  --dueDateNormal: #8a8570;
+  --dueDateClose: #d97757;
+  --dueDateOver: #c0392b;
+
+  /* Markdown Editor */
+  --mdBlack: #3d3929;
+  --mdGrey: #6f6a55;
+  --mdWhite: #ffffff;
+  --mdBrown: #9c5a2a;
+  --mdRed: #c0392b;
+  --mdPurple: #7a5d9c;
+  --mdPink: #c14c8a;
+  --mdGreen: #6b8e4e;
+  --mdLime: #94a47a;
+  --mdYellow: #b8861b;
+  --mdBlue: #4a7298;
+  --mdCyan: #4d9c8f;
+  --mdOrange: #d97757;
+
+  --backgroundMdEditor: #f5f3eb;
+  --backgroundMdEditorToolbar: #ffffff;
+  --mdEditorIcon: var(--text3);
+  --mdEditorIconHover: #d97757;
+  --mdEditorIconDisabled: #c4bfa8;
+  --mdEditorPreviewBoxSeparator: rgba(61, 57, 41, 0.1);
+
+  /* Color Picker */
+  --colorPickerInputBoxShadow: rgba(61, 57, 41, 0.16);
+}
+
+/* Claude theme typography — editorial: serif headings, system sans body */
+[data-theme='claude'] h1,
+[data-theme='claude'] h2,
+[data-theme='claude'] h3,
+[data-theme='claude'] h4 {
+  font-family: 'Tiempos Headline', 'Lyon Display', Georgia, 'Times New Roman', Cambria, serif;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
 /* TODO: Remove - old colors:
   --backgroundColor1: #252526;
   --backgroundColor2: #333333;
