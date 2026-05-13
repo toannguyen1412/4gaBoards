@@ -37,6 +37,10 @@ const PreferencesSettingsTheme = React.memo(({ themeCustomColors, onUpdate }) =>
         id: Themes.LIGHT_SOFT,
         name: t('common.themeLightSoft'),
       },
+      {
+        id: Themes.NOTION,
+        name: t('common.themeNotion'),
+      },
     ],
     [t],
   );

@@ -487,6 +487,7 @@ export default {
       themeGithubDark: 'GitHub Tối',
       themeLight: 'Sáng',
       themeLightSoft: 'Sáng dịu',
+      themeNotion: 'Notion',
       themeShape: 'Hình dạng giao diện',
       themeShapeDefault: 'Mặc định',
       themeShapeRounded: 'Bo tròn',
