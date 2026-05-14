@@ -19,7 +19,7 @@ services:
       retries: 20
 
   4gaBoards:
-    image: 4gaboards:custom
+    image: hub.webzservice
     build:
       context: .
       dockerfile: Dockerfile
